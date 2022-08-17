@@ -1,0 +1,38 @@
+GIT Commands
+1.	Configuration of GIT (First time only)
+git config --global user.name "**********"
+git config --global user.email "*************"
+
+2.	Some basic commands
+pwd -> print working directory
+cd -> change directory
+mkdir -> Make a directory
+
+3.	Initialization of GIT
+git init -> Creates local repository
+
+4.	Add files and commit
+git add files
+git commit -m "Initial commit"
+
+5.	Make changes in the source files and commit again
+
+6.	Reset the commits
+git reset --hard  ****** (commit id)
+
+7.	Create a branch with new feature
+git branch newBranch -> Creates new branch
+git checkout newBranch -> You are in new branch
+git add files
+git commit -m "Initial commit"
+
+
+8.	Merge new branch with master branch
+
+git checkout master -> You are in master branch
+git merge newBranch -> Merge master and new branch
+
+9.	Push local repository to GITHUB
+
+git remote add origin ************** 
+git push origin master
